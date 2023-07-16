@@ -34,6 +34,7 @@ export const SearchContextProvider = ({children}) => {
                 options: state.options,
                 dispatch,
             }}
+    
         >
             {children}
         </SearchContext.Provider>
